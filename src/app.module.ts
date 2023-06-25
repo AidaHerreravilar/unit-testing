@@ -9,4 +9,4 @@ import { BuscarValorController } from './buscar-valor/buscar-valor.controller';
   controllers: [AppController, BuscarValorController],
   providers: [AppService, BuscarValorService],
 })
-export class AppModule {}
+export class AppModule { }
