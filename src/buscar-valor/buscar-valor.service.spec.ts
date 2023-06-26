@@ -4,7 +4,7 @@ import { BuscarValorService } from './buscar-valor.service';
 describe('BuscarValorService', () => {
   let service: BuscarValorService;
 
-  beforeEach(async () => {
+  beforeEach(async ( ) => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [BuscarValorService],
     }).compile();
@@ -12,7 +12,7 @@ describe('BuscarValorService', () => {
     service = module.get<BuscarValorService>(BuscarValorService);
   });
 
-  it('should be defined', () => {
+  it('should be defined', ( ) => {
     expect(service).toBeDefined();
   });
 });

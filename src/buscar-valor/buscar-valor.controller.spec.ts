@@ -7,12 +7,11 @@ describe('BuscarValorController', () => {
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [BuscarValorController],
-    }).compile();
-
+    }).compile( );
     controller = module.get<BuscarValorController>(BuscarValorController);
   });
 
   it('should be defined', () => {
-    expect(controller).toBeDefined();
+    expect(controller).toBeDefined( );
   });
 });
